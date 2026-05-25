@@ -1,0 +1,4 @@
+Nexus/node_modules/
+nexus-backend/node_modules/
+nexus-backend/.env
+.DS_Store
