@@ -23,6 +23,7 @@ export default function Login({ onLoginSuccess }) {
       // Connect directly to your live Vercel backend deployment link.
       // Replace 'your-backend-api' with your exact backend url if different.
       // =========================================================================
+      // Paste this exact link into your Login.jsx file
       const backendUrl = "https://nexus-backend-api.vercel.app/api/students/login";
       
       const response = await axios.post(backendUrl, {
